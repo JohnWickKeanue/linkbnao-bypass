@@ -14,7 +14,7 @@ def link(url):
     client = cloudscraper.create_scraper(allow_brotli=False)
     
     
-    DOMAIN = "https://go.linkbnao.com"
+    DOMAIN = "https://vip.linkbnao.com"
 
     url = url[:-1] if url[-1] == '/' else url
 
@@ -22,7 +22,7 @@ def link(url):
     
     final_url = f"{DOMAIN}/{code}"
     
-    ref = "https://ctdbihar.in/"
+    ref = "https://technoloy.xyz/"
     
     h = {"referer": ref}
   
